@@ -11,6 +11,7 @@ public class Main {
             students.add(student);
             students.add(student2);
             students.add(student3);
+            System.out.println(students);
         }catch (NullPointerException n){
             System.out.println("student null");
 
